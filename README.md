@@ -12,4 +12,4 @@
 - GameStore.UnitTests содержит модульные тесты для других двух проектов.
 
 Для запуска проекта необходима база данных Microsoft SQL Server Express. Скрипты для создания и
-заполнения таблиц находятся в корневой папке (dbo.Games.sql и dbo.Games.data.sql).
+заполнения таблиц находятся в папке SQL Scripts (dbo.Games.sql и dbo.Games.data.sql).
