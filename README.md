@@ -12,3 +12,4 @@
 - GameStore.UnitTests содержит модульные тесты для других двух проектов.
 
 Для запуска необходимо выбрать проект GameStore.WebUI (или назначить его автозагружаемым) и нажать F5.
+Используямая база данных MS SQL Express храниться в файле GameStore.WebUI/App_Data/GameStore.mdf.
