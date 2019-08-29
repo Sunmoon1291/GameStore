@@ -1,19 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Domain", "Domain\GameStore.Domain.csproj", "{B612A464-B3B9-43E6-BF91-19ABC625FD74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.WebUI", "WebUI\GameStore.WebUI.csproj", "{84AA629C-C72C-4312-A0D5-92EC83BF7EBB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.UnitTests", "UnitTests\GameStore.UnitTests.csproj", "{DA06E9F7-3D10-4644-A2B6-0CE83D693007}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts", "{4132514B-2D8D-46B6-85B3-4E08ABFA4B55}"
-	ProjectSection(SolutionItems) = preProject
-		SQL Scripts\dbo.Games.data.sql = SQL Scripts\dbo.Games.data.sql
-		SQL Scripts\dbo.Games.sql = SQL Scripts\dbo.Games.sql
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC561706-AB9D-4552-BBC7-AB48B028ED26}
 	EndGlobalSection
 EndGlobal
